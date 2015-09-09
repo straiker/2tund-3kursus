@@ -13,4 +13,13 @@
     } else {
     	echo "täisealine";
     }
+
+    echo "<br><br>";
+
+    for($i = 0; $i<$age; $i++){
+        echo "palju <br>";
+    }
+
+    echo "<br><br>";
+    echo date("D, d M yy e");
 ?>
